@@ -1,0 +1,7 @@
+DirectoryIndex index.php
+Options -Indexes
+
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+SetEnv DB_NAME sims_clean
